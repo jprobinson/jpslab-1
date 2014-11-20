@@ -1,0 +1,172 @@
+#container {
+     width: 100%;
+}
+
+main {
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.date {
+	text-align: center;
+     font-family:'Libre Baskerville', serif;
+     font-weight: 400;
+     color: #2E2E2E;
+     margin-bottom: 20px;
+}
+
+.caption {
+	text-align: center;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 300;
+     color: #2E2E2E;
+     line-height: 1.25;
+}
+
+
+
+.jumbo img{
+	width: 100%;
+	padding-top: 20px;
+}
+
+aside {
+	width: 30%;
+	float: left;
+	text-align: center;
+	display: block;
+
+}
+
+.logo img{
+	max-height:225px;
+	margin: 0;
+}
+
+.about {
+	font-family:'Libre Baskerville', serif;
+	font-weight: 700;
+	margin: 20px 0px 20px 0;
+     color: #2E2E2E
+}
+
+a:visited, a:hover, a:link, a:active {
+     color: #2E2E2E;
+     text-decoration: none;
+}
+
+
+.tagTitle {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	text-indent: -9999px;
+     color: white;
+}
+
+	
+
+.tagTitle span {
+	background: url("http://static.tumblr.com/es2hzit/0NVneqhtq/icon-shaker2.png") no-repeat;
+     height: 100px;
+     width: 100%;
+     display: block;
+     margin: auto;
+     background-position: 44% 0;
+
+}
+
+
+.tags {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	margin-top: 20px;
+     line-height: 1.15;
+     color: #2E2E2E;
+}
+
+.logoMobile {
+     display: none;
+}
+
+/*
+h3 {
+     font-family: arial;
+}
+*/
+
+@media (min-width:720px) and (max-width:990px) {
+     .logoMobile {
+          display:block;
+          width: 100%;
+          text-align: center;
+     }
+
+     .logoMobile img {
+          max-height: 175px;
+      }
+
+     .logo {
+          display:none;
+     }
+
+     .date {
+          margin-top: 20px;
+     }
+
+     main, aside, .tags, .about, .tagTitle {
+     	float:none;
+     	margin: 10px auto;
+     	width:100%;
+     }
+
+     .tagTitle span {
+          background-position: 47% 0;
+          background-size: contain;
+          height: 80px;
+     }
+
+}
+
+@media (min-width:200px) and (max-width:719px) {
+     .logoMobile {
+          display:block;
+          width: 100%;
+          text-align: center;
+     }
+
+     .logoMobile img {
+          max-height: 125px;
+     }
+ 
+ 
+     .item {
+          width:100%;
+          display:inline-block;
+     }
+
+     .logo {
+          display:none;
+     }
+
+     .date {
+          margin-top: 20px;
+     }
+
+
+     main, aside, .tags, .about, .tagTitle {
+     	width:100%;
+     	float:none;
+     	margin: 10px auto;
+     }
+
+     .tagTitle span {
+          background-position: 44% 0;
+          background-size: contain;
+          height: 60px;
+     }
+
+}
+
