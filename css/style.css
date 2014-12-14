@@ -7,6 +7,8 @@
      width: 33.33%;
      display: inline-block;
      line-height: 0;
+     height:0;
+     padding-bottom:22%;
 }
 
 .item img {
@@ -73,6 +75,7 @@ h3 {
      .item {
           width:50%;
           display:inline-block;
+          padding-bottom:33%;
           }
 
      .logoLarge {
@@ -96,6 +99,7 @@ h3 {
      .item {
           width:100%;
           display:inline-block;
+          padding-bottom:66%;
      }
 
      .logoLarge {
