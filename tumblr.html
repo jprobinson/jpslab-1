@@ -36,14 +36,13 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     {block:IndexPage} 
-    <script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
+    <script type="text/javascript" src="http://static.tumblr.com/es2hzit/B4tnic9ix/inf-scroll.js"></script>
     {/block:IndexPage} 
 
 </head>
 <body>
 
 <div id="container">
-
 
     {block:IndexPage} 
     <div class="logoMobile">
@@ -64,6 +63,7 @@
         </div>
     {/block:Posts}
     </div>
+    <div style="clear:both"></div>
     {/block:IndexPage} 
 
 
@@ -97,10 +97,14 @@
     </aside>
     {/block:Photo}
     {/block:Posts}
+    <div style="clear:both"></div>
     {/block:PermalinkPage} 
 
 </div>
 
+<footer style="text-align:center">
+    © {CopyrightYears} JP Robinson
+</footer>
 
 </body>
 </html>
