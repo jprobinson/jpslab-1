@@ -47,6 +47,18 @@
      overflow: hidden;
 }
 
+.item p.noteCount {
+    margin-top:-7%;
+    margin-left:47%;
+}
+
+.item p.noteCount span {
+     background-image: url("http://static.tumblr.com/es2hzit/Awtnho75p/info-about-icon.png");
+     background-size: 13px 25px;
+     background-repeat: no-repeat;
+     padding: 3px;
+}
+
 a:visited, a:hover, a:link, a:active {
      color: #2E2E2E;
      text-decoration: none;
