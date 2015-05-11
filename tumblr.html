@@ -25,7 +25,7 @@
     {/block:IndexPage}
 
     {block:PermalinkPage} 
-    <link rel="stylesheet" href="http://static.tumblr.com/es2hzit/89fnf5zm9/fullpost.css" />
+    <link rel="stylesheet" href="http://static.tumblr.com/es2hzit/lF9no3po3/fullpost.css" />
     {/block:PermalinkPage} 
 
     <!-- Scripts -->
@@ -61,9 +61,6 @@
               {block:Caption}
                     <div class="photoCaption">
                         <a href="{Permalink}">{Caption}</a>
-                        <p class="noteCount">
-                            <a title="{NoteCountWithLabel}" href="{Permalink}">{NoteCount}<span>&nbsp;</span></a>
-                        </p>
                     </div>
               {/block:Caption}
            {/block:Photo}
@@ -106,10 +103,17 @@
     {/block:Photo}
 
     <div style="clear:both"></div>
+    
+        <p class="noteCount">
+             {block:NoteCount} {NoteCountWithLabel} {/block:NoteCount}
+        </p>
+
     {block:PostNotes}
         {PostNotes-16}
     {/block:PostNotes}
     {block:IfDisqusShortname}
+
+
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

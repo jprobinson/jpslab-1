@@ -47,20 +47,6 @@
      overflow: hidden;
 }
 
-.item p.noteCount {
-     margin-top: -4%;
-     margin-left: 52%;
-}
-
-.item p.noteCount span {
-     background-image: url("http://static.tumblr.com/es2hzit/CpKnj2h5t/notes-notepad.svg");
-     background-size: 19px;
-     background-repeat: no-repeat;
-     padding-top: 3px;
-     display: inline-block;
-     width: 23px;
-
-}
 
 a:visited, a:hover, a:link, a:active {
      color: #2E2E2E;

@@ -91,11 +91,32 @@ a:visited, a:hover, a:link, a:active {
      display: none;
 }
 
-/*
-h3 {
-     font-family: arial;
+.noteCount {
+     margin: 20px 0 0 20px;
+     font-family: "Helvetica Neue",arial,sans-serif;
+     font-weight: 200;
+     color: gray;
 }
-*/
+
+.notes {
+     margin: 20px 0 0 20px;
+     font-family: "Helvetica Neue",arial,sans-serif;
+     color: gray;
+}
+
+.notes li {
+     padding-bottom: 5px;
+}
+
+.avatar_frame {
+     padding-right: 5px;
+}
+
+
+#disqus_thread {
+     margin: 20px 20px 0 20px;
+}
+
 
 @media (min-width:720px) and (max-width:990px) {
      .logoMobile {
@@ -120,6 +141,7 @@ h3 {
      	float:none;
      	margin: 10px auto;
      	width:100%;
+          display: block;
      }
 
      .tagTitle span {
@@ -155,11 +177,15 @@ h3 {
           margin-top: 20px;
      }
 
-
      main, aside, .tags, .about, .tagTitle {
      	width:100%;
      	float:none;
      	margin: 10px auto;
+          display: block;
+     }
+
+     .caption {
+          margin: 0 2px;
      }
 
      .tagTitle span {
