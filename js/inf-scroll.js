@@ -216,7 +216,7 @@ var tumblrAutoPager = {
 			tAP.pp.appendChild(hr);*/
 			d = document.createElement("div");
 			d.className = "tumblrAutoPager_page_info";
-			d.innerHTML = "<h2><a href=https://" + tAP.LN + "/page/" + p + ">&nbsp;</a></h2>";
+			d.innerHTML = "<h2><a href=https://" + tAP.LN + "/page/" + p + "></a></h2>";
 			tAP.pp.appendChild(d);
 			for (var i = 0; i < posts.length; i++) {
 				tAP.pp.appendChild(posts[i]);
